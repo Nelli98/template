@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+h1.touch{
+	font-size: 40px;
+	font-family: 'Cinzel';
+	color: #303131;
+	letter-spacing: 0.05em;
+	padding-top: 60px;
+	margin-left: 120px;
+}
+p.paragraph{
+	font-size: 16px;
+	color: #303131;
+	line-height: 1.5em;
+	width: 400px;
+	padding-top: 30px;
+	margin-left: 120px;
+}
+h2.telephone{
+	font-size: 16px;
+	color: #303131;
+	line-height: 1.5em;
+	padding-top: 40px;
+	margin-left: 120px;
+}
+.form-group{
+	margin-left: 120px;
+}
+.btn3{
+	background-color: #273A4E;
+	width: 120px;
+	height: 35px;
+	border: none;
+	margin-left: 380px;
+	font-size: 16px;
+	color: #ffffff;
+}
+h1.subscribe{
+	font-size: 16px;
+	color: #303131;
+	margin-left: 120px;
+	padding-top: 50px;
+}
+#btn4{
+	background-color: #273A4E;
+	width: 160px;
+	height: 30px;
+	border: none;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #ffffff;
+}
+#main{
+	width: 200px;
+	margin-left: 120px;
+}
+
+@media only screen and (max-width: 890px) {
+   
+h1.touch{
+  margin-left: 20px;
+}
+p.paragraph{
+	margin-left: 20px;
+}
+h2.telephone{
+	margin-left: 20px;
+}
+.form-group{
+	margin: 20px;
+}
+.btn3{
+	margin-left: 20px;
+}
+#main{
+	margin-left: 20px;
+}
+h1.subscribe{
+	margin-left: 20px;
+}
+
+}
+
+

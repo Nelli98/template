@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+.text h1{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	font-family: 'Cinzel';
+}
+h1.breakfast	{
+	padding-top: 150px;
+	font-size: 64px;
+	color: #303131;
+	font-family: 'Cinzel';
+}
+.part{
+	background: #f0f3f6;
+	margin-bottom: 60px;
+	padding-bottom: 150px
+}
+.item-block h1{
+	font-size: 64px;
+	color: #303131;
+	font-family: 'Cinzel';
+	padding-top: 100px;
+}
+.item-block p{
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.item-block h1, p{
+	width: 350px;
+	color: #303131;
+}
+.btn1{
+	width: 130px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid #303131;
+	margin-left: 200px;
+	font-size: 16px;
+	text-transform: lowercase;
+}
+.btn1:hover{
+	width: 130px;
+	height: 40px;
+	background: #273A4E;
+	border: none;
+	color: #ffffff;
+	transition: 0.5s;
+	text-transform: lowercase;
+}
+

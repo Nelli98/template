@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	color: #303131;
+	font-family: 'Cinzel';
+}
+.part{
+	background: #f0f3f6;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+h2{
+	font-size: 16px;
+	color: #303131;
+	padding-top: 10px;
+}
+.part1{
+	background: #ffffff;
+	padding-top: 20px;
+}
+.search-box{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin-left: 450px;
+}
+.input-search{
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #f0f3f6;
+  padding-left: 40px;
+  color:#000000;
+}
+.input-search::placeholder{
+  color:#000000;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search{
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color:#000000 ;
+  background-color:transparent;
+  pointer-events: painted;  
+}
+.btn-search:focus ~ .input-search{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid #000000;
+}
+.input-search:focus{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid #000000;
+}
+.fa-user{
+	font-size: 25px;
+	margin-left: 20px;
+}
+.fa-crown{
+	font-size: 12px;
+}
+.fa-user-circle:before {
+    content: "\f2bd";
+    font-size: 30px;
+    padding-top: 10px;
+}
+h4.title{
+	font-size: 28px;
+	color: #303131;
+	font-family: 'Cinzel', serif;
+	padding-left: 20px;
+  padding-top: 10px;
+}
+p.quote{
+	width: 500px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #303131;
+}
+.line{
+    border: 1px solid grey;
+    margin: 20px;
+    margin-top: 130px;
+}
+.item-block1{
+  background: #ffffff;
+  padding-top: 30px;
+}
+.fa-heart-on {
+    background: url(//www.azquotes.com/public2/images/heart24-on.png) no-repeat!important;
+    background-size: 24px auto!important;
+    border-radius: 0;
+}
+.fa-heart a {
+    font-weight: 500;
+    color: #a94c1c;
+}
+.fa-heart {text-decoration:none}
+.fa-heart {position:relative;top:0!important;display:inline-block;margin-right:4px;width:24px;height:24px;border-radius:50%}
+.fa-heart a{font-weight:500;color:#a94c1c}
+.fa-heart{vertical-align:top;background-position-x:0;padding-left:31px;padding-top:2px;padding-bottom:0;line-height:20px;font-size:12px}
+
+#heart.red {
+  color: red;
+}
+h5.comments{
+  font-size: 12px;
+  margin-left: 20px;
+  color: #303131;
+}
+#heart{
+  margin-left: 340px;
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+.search-box{
+  margin-left: 200px;
+}
+}
+

@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+
+body{
+    height: 100vh-10px;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    max-height: 100px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.hamburger {
+    display: none;
+}
+.header img{
+    width: 170px;
+    object-fit: cover;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+/*.nav-item {
+    margin-left: 5rem;
+}*/
+.nav-item a{
+    color: #303131;
+    font-size: 16px;
+}
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+.nav-link:hover{
+    color: #482ff7;
+}
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+@media only screen and (max-width: 960px) {
+    .nav-menu {
+        position: absolute;
+        left: -100%;
+        top: 4rem;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 100;
+        background: black;
+        color: #fff;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+    .footer .line{
+        display: none
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+    .nav-item a{
+      color: #fff;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .img{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    }
+
+}
+
